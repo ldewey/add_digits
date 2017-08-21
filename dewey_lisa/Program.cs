@@ -18,9 +18,9 @@ namespace addDigits
 			do
 			{
 				if (error)
-				{   Console.ForegroundColor = ConsoleColor.DarkRed;
-					Console.WriteLine("Error! The integers must have the same number of digits.");
-					Console.ResetColor();
+				{   
+					Console.WriteLine("Error! The integers must have the same number of digits.")
+						
 				}
 
 				do
@@ -85,20 +85,6 @@ namespace addDigits
 					}
 				}
 
-
-
-
-
-				//var sum = (int32.parse(xstr) % 10 + int32.parse(ystr) % 10);
-				//if (lastsum != sum && lastsum != -1)
-				//{
-				//	error = true;
-				//	break;
-				//}
-				//x /= 10;
-				//y /= 10;
-
-				//lastsum = sum;
 			}
 			Console.WriteLine((!error).ToString());
 			Console.ReadLine();
